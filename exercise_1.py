@@ -6,7 +6,7 @@ def check(envelop_x, envelop_y, paper_x, paper_y):
     paper = np.array([paper_x, paper_y])
     return all(np.sort(envelop) >= np.sort(paper))
 
-# Пример использования функции
+#example
 envelop_x = float(input("Введи ширину конверта: "))
 envelop_y = float(input("Введи высоту конверта: "))
 paper_x = float(input("Введи ширину листа бумаги: "))

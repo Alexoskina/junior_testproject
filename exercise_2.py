@@ -19,12 +19,12 @@ class SomeObject:
 
 obj = SomeObject(5)
 
-# Увеличим значение атрибута на 1
+# Увеличение атрибута на 1
 new_attribute(obj, 'some_attribute')
 
-# Увеличим значение несуществующего атрибута
+# Увеличение несуществующего атрибута
 new_attribute(obj, 'nonexistent_attribute')
 
-# Увеличим значение нечисловогом атрибута
+# Увеличение нечислового атрибута
 obj.some_attribute = "не число"
 new_attribute(obj, 'some_attribute')
